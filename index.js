@@ -111,8 +111,9 @@ function dispWeatherDetails() {
 	
 function switchCF() {
 	console.log(tempF);
-	var hButton = document.getElementById("button");
+	var hButton = document.getElementById("switch");
 	var currDisp = hButton.value;
+	console.log(currDisp);
 	var hTemp = document.getElementById("temp");
 	
 	if (currDisp == "F") {
